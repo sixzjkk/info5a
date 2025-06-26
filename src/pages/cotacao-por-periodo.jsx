@@ -10,7 +10,7 @@ export default function CotacaoPorPeriodo() {
 
   const handleBuscar = async () => {
     if (!startDate || !endDate) {
-      setErro("Preencha as datas, pô!");
+      setErro("Preencha as datas!");
       return;
     }
 
